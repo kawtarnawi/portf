@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio de Kawtar Naoui Kheir — étudiante en ingénierie logicielle à ESISA, passionnée par le développement web, la data et la création de solutions utiles." />
+  <title>Kawtar Naoui Kheir — Software Engineering Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav__logo">Kawtar<span>.</span></a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a class="nav__link active-link" href="#home">Home</a></li>
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#work">Work</a></li>
+          <li><a class="nav__link" href="#skills">Skills</a></li>
+          <li><a class="nav__link" href="#journey">Journey</a></li>
+          <li><a class="nav__link" href="#contact">Contact</a></li>
+        </ul>
+        <button class="nav__close" id="nav-close" aria-label="Fermer"><i class="ri-close-line"></i></button>
+      </div>
+      <div class="nav__actions">
+        <button class="theme-button" id="theme-button" aria-label="Changer le thème"><i class="ri-moon-line"></i></button>
+        <button class="nav__toggle" id="nav-toggle" aria-label="Menu"><i class="ri-menu-4-line"></i></button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="home section" id="home">
+      <div class="home__blob blob-one"></div>
+      <div class="home__blob blob-two"></div>
+      <div class="home__container container grid">
+        <div class="home__data reveal">
+          <p class="eyebrow">Hi, I'm Kawtar — Software Engineering Student</p>
+          <h1 class="home__title">I build <span>digital experiences</span> that are useful, clear & human.</h1>
+          <p class="home__description">Étudiante en 3ème année d'ingénierie logicielle à ESISA, je transforme ce que j'apprends en projets concrets — du frontend aux bases de données, jusqu'à l'analyse de données.</p>
+          <div class="home__buttons">
+            <a href="#work" class="button">View my work <i class="ri-arrow-right-up-line"></i></a>
+            <a href="#contact" class="button button--ghost">Let's talk <i class="ri-send-plane-line"></i></a>
+          </div>
+          <div class="home__social">
+            <span>Follow me</span>
+            <a href="https://www.linkedin.com/search/results/people/?keywords=Kawtar%20Naoui%20Kheir" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="ri-linkedin-box-line"></i></a>
+            <a href="mailto:kawtarnaouikheir@gmail.com" aria-label="Email"><i class="ri-mail-line"></i></a>
+          </div>
+        </div>
+
+        <div class="home__visual reveal reveal-delay">
+          <div class="hero-card">
+            <div class="hero-card__top"><span>KN / 03</span><span>FÈS · MOROCCO</span></div>
+            <div class="hero-card__center">
+              <div class="portrait-orbit orbit-a"></div>
+              <div class="portrait-orbit orbit-b"></div>
+              <div class="portrait">
+                <span>KN</span>
+                <small>software<br>engineering</small>
+              </div>
+            </div>
+            <div class="hero-card__bottom">
+              <span>BUILD</span>
+              <strong>LEARN<br>IMPROVE</strong>
+              <span>2026</span>
+            </div>
+          </div>
+          <div class="floating-card floating-card--one"><i class="ri-code-s-slash-line"></i><span>Frontend</span><b>HTML · CSS · JS</b></div>
+          <div class="floating-card floating-card--two"><i class="ri-bar-chart-box-line"></i><span>Data</span><b>Python · SQL</b></div>
+        </div>
+      </div>
+      <div class="home__scroll"><a href="#about"><span>Scroll down</span><i class="ri-arrow-down-line"></i></a></div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-heading reveal"><span>01 — About me</span><h2>Learning by <em>building.</em></h2></div>
+        <div class="about__grid">
+          <div class="about__intro reveal">
+            <p class="about__lead">Je suis <strong>Kawtar Naoui Kheir</strong>, étudiante en ingénierie logicielle à ESISA à Fès.</p>
+            <p>J'aime comprendre comment les systèmes fonctionnent, puis transformer cette compréhension en interfaces et projets concrets. Mon parcours m'a amenée à explorer le développement web, la programmation, les bases de données et l'analyse de données.</p>
+            <p>Je suis actuellement en 3ème année et je continue à renforcer mes bases en <strong>Python, Java, C#, systèmes, data et développement web</strong>.</p>
+            <a href="#contact" class="text-link">Travaillons ensemble <i class="ri-arrow-right-up-line"></i></a>
+          </div>
+          <div class="about__facts reveal reveal-delay">
+            <div class="fact"><span>01</span><div><strong>3ème année</strong><small>Ingénierie logicielle · ESISA</small></div></div>
+            <div class="fact"><span>02</span><div><strong>CHU Hassan II</strong><small>Stage d'observation · DSI</small></div></div>
+            <div class="fact"><span>03</span><div><strong>Web + Data</strong><small>Deux domaines que j'aime connecter</small></div></div>
+            <div class="fact"><span>04</span><div><strong>Curieuse</strong><small>Apprendre, tester, améliorer</small></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section" id="work">
+      <div class="container">
+        <div class="section-heading section-heading--row reveal"><div><span>02 — Selected work</span><h2>Things I've <em>built.</em></h2></div><p>Des projets académiques et une expérience de stage qui montrent ma progression, ma curiosité et mon approche du développement.</p></div>
+        <div class="work__grid">
+          <article class="project reveal" data-project="eresultat">
+            <div class="project__visual project__visual--hospital"><div class="mock-browser"><div class="browser-bar"><i></i><i></i><i></i><span>e-resultat.vercel.app</span></div><div class="dashboard"><aside><b>e.</b><span></span><span></span><span></span><span></span></aside><div><div class="dash-top"><b>Tableau de bord</b><small>Résultats patients</small></div><div class="dash-stats"><div><small>Patients</small><strong>248</strong></div><div><small>Analyses</small><strong>391</strong></div><div><small>Envoyés</small><strong>214</strong></div></div><div class="dash-table"><span></span><span></span><span></span><span></span></div></div></div></div></div>
+            <div class="project__body"><div class="project__meta"><span>01 / Web</span><span>2026</span></div><h3>E-Résultat</h3><p>Interface web pensée pour faciliter l'envoi des résultats d'analyses médicales aux patients.</p><div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div><button class="project__link" data-modal="eresultat">View case study <i class="ri-arrow-right-up-line"></i></button></div>
+          </article>
+
+          <article class="project reveal reveal-delay" data-project="quizmaster">
+            <div class="project__visual project__visual--quiz"><div class="quiz-ui"><div class="quiz-nav"><b>Quiz<span>Master</span></b><small>ADMIN / STUDENT</small></div><div class="quiz-question"><small>QUESTION 04 / 10</small><h4>Which language runs in the browser?</h4><div class="answers"><span>A · Python</span><span class="correct">B · JavaScript</span><span>C · C++</span></div></div><div class="quiz-progress"><i></i></div></div></div>
+            <div class="project__body"><div class="project__meta"><span>02 / Web</span><span>Group project</span></div><h3>QuizMaster</h3><p>Application de quiz interactive réalisée en groupe, avec des interfaces dédiées à l'Admin et à l'Étudiant.</p><div class="tags"><span>HTML5</span><span>CSS3</span><span>Vanilla JS</span></div><button class="project__link" data-modal="quizmaster">View case study <i class="ri-arrow-right-up-line"></i></button></div>
+          </article>
+
+          <article class="project reveal" data-project="dashboard">
+            <div class="project__visual project__visual--data"><div class="data-ui"><div class="data-header"><b>Orders Dashboard</b><span>Python + SQL</span></div><div class="chart"><i style="height:36%"></i><i style="height:52%"></i><i style="height:44%"></i><i style="height:74%"></i><i style="height:62%"></i><i style="height:88%"></i><i style="height:70%"></i><i style="height:94%"></i></div><div class="data-bottom"><span>CSV</span><span>MySQL</span><span>Matplotlib</span></div></div></div>
+            <div class="project__body"><div class="project__meta"><span>03 / Data</span><span>Academic</span></div><h3>Data Dashboard</h3><p>Projet Python autour de données CSV/MySQL, avec analyse, traitement et visualisation des résultats.</p><div class="tags"><span>Python</span><span>MySQL</span><span>Matplotlib</span></div><button class="project__link" data-modal="dashboard">View case study <i class="ri-arrow-right-up-line"></i></button></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section">
+      <div class="container">
+        <div class="section-heading reveal"><span>03 — What I enjoy</span><h2>From idea to <em>interface.</em></h2></div>
+        <div class="services__grid">
+          <div class="service reveal"><span>01</span><i class="ri-layout-4-line"></i><h3>Frontend development</h3><p>Créer des interfaces propres, responsives et faciles à utiliser avec HTML, CSS et JavaScript.</p></div>
+          <div class="service reveal reveal-delay"><span>02</span><i class="ri-database-2-line"></i><h3>Data & databases</h3><p>Manipuler des données, travailler avec SQL/MySQL et transformer des données en informations lisibles.</p></div>
+          <div class="service reveal"><span>03</span><i class="ri-lightbulb-flash-line"></i><h3>Problem solving</h3><p>Décomposer un problème, comprendre les contraintes et avancer étape par étape vers une solution.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section-heading section-heading--row reveal"><div><span>04 — My toolkit</span><h2>Skills I'm <em>growing.</em></h2></div><p>Un profil en construction : je consolide mes fondamentaux tout en explorant de nouvelles technologies.</p></div>
+        <div class="skills__grid">
+          <div class="skill-group reveal"><div class="skill-title"><i class="ri-code-s-slash-line"></i><h3>Development</h3></div><div class="skill-row"><span>HTML / CSS</span><b>●●●●●</b></div><div class="skill-row"><span>JavaScript</span><b>●●●●○</b></div><div class="skill-row"><span>Python</span><b>●●●●○</b></div><div class="skill-row"><span>C++</span><b>●●●○○</b></div></div>
+          <div class="skill-group reveal reveal-delay"><div class="skill-title"><i class="ri-database-2-line"></i><h3>Data & DB</h3></div><div class="skill-row"><span>SQL / MySQL</span><b>●●●●○</b></div><div class="skill-row"><span>CSV / Data prep</span><b>●●●●○</b></div><div class="skill-row"><span>Matplotlib</span><b>●●●○○</b></div><div class="skill-row"><span>Data analysis</span><b>●●●○○</b></div></div>
+          <div class="skill-group reveal"><div class="skill-title"><i class="ri-terminal-box-line"></i><h3>Currently exploring</h3></div><div class="skill-chips"><span>Java</span><span>C#</span><span>Advanced Python</span><span>CMS</span><span>Operating Systems</span><span>Data Analysis</span><span>Numerical Analysis</span><span>Optimization</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="journey section" id="journey">
+      <div class="container">
+        <div class="section-heading reveal"><span>05 — Journey</span><h2>Still learning. <em>Still building.</em></h2></div>
+        <div class="timeline">
+          <div class="timeline__item reveal"><span class="timeline__year">2026 — now</span><div><h3>3ème année · Ingénierie logicielle</h3><p>ESISA · Fès — approfondissement en Python avancé, Java, C#, systèmes, data, CMS et recherche opérationnelle.</p></div></div>
+          <div class="timeline__item reveal reveal-delay"><span class="timeline__year">2026</span><div><h3>Stage d'observation · CHU Hassan II</h3><p>DSI — contribution à la partie frontend d'E-Résultat : interfaces, navigation, formulaires et expérience utilisateur autour d'un workflow de résultats d'analyses.</p></div></div>
+          <div class="timeline__item reveal"><span class="timeline__year">2025 — 2026</span><div><h3>Projets académiques</h3><p>QuizMaster, data dashboard Python/SQL, bases de données, algorithmique et développement web.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact__container">
+        <div class="contact__intro reveal"><span class="eyebrow">06 — Contact</span><h2>Have an idea?<br><em>Let's talk.</em></h2><p>Tu veux échanger sur un projet, une opportunité de stage ou simplement discuter développement ? Je serais ravie d'échanger.</p><div class="contact__links"><a href="mailto:kawtarnaouikheir@gmail.com"><i class="ri-mail-line"></i><span>Email<small>kawtarnaouikheir@gmail.com</small></span></a><a href="https://www.linkedin.com/search/results/people/?keywords=Kawtar%20Naoui%20Kheir" target="_blank" rel="noreferrer"><i class="ri-linkedin-line"></i><span>LinkedIn<small>Connect with me</small></span></a></div></div>
+        <form class="contact__form reveal reveal-delay" id="contact-form"><label>Nom<input id="form-name" required type="text" placeholder="Votre nom"></label><label>Email<input id="form-email" required type="email" placeholder="votre@email.com"></label><label>Message<textarea id="form-message" required rows="5" placeholder="Parlez-moi de votre projet..."></textarea></label><button class="button" type="submit">Send message <i class="ri-send-plane-line"></i></button><p class="form-note">Le bouton ouvre votre application email avec le message prérempli.</p></form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer__inner"><a href="#home" class="nav__logo">Kawtar<span>.</span></a><p>© 2026 Kawtar Naoui Kheir. Built with curiosity & code.</p><div><a href="#home">Back to top <i class="ri-arrow-up-line"></i></a></div></div></footer>
+
+  <div class="modal" id="project-modal" aria-hidden="true"><div class="modal__overlay" data-close-modal></div><div class="modal__content"><button class="modal__close" data-close-modal aria-label="Fermer"><i class="ri-close-line"></i></button><span class="modal__number" id="modal-number">01 / CASE STUDY</span><h2 id="modal-title"></h2><p id="modal-description"></p><div class="modal__details"><div><small>ROLE</small><strong id="modal-role"></strong></div><div><small>STACK</small><strong id="modal-stack"></strong></div><div><small>FOCUS</small><strong id="modal-focus"></strong></div></div><div class="modal__story"><h3>What I worked on</h3><p id="modal-story"></p></div><a id="modal-link" class="button" href="#" target="_blank" rel="noreferrer">Open project <i class="ri-arrow-right-up-line"></i></a></div></div>
+
+  <button class="scrollup" id="scroll-up" aria-label="Retour en haut"><i class="ri-arrow-up-line"></i></button>
+  <script src="script.js"></script>
+</body>
+</html>
